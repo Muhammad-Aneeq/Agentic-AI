@@ -7,7 +7,7 @@ from agents import (
     )
 from openai import AsyncOpenAI
 import rich
-gemini_api_key = "AIzaSyA8-12akKkDprulXQ_ZRtE9KLqya4pwElE"
+gemini_api_key = "your api key"
 
 #Reference: https://ai.google.dev/gemini-api/docs/openai
 external_client = AsyncOpenAI(
